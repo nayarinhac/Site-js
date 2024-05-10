@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #add8e6; /* Letras azul bebê */
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header img {
+  width: 150px; /* Defina o tamanho da sua logo */
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #add8e6; /* Letras azul bebê */
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #030b79;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #add8e6; /* Letras azul bebê */
+}
+
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#errorMessage {
+  margin-top: 10px;
+  color: #ff0000;
+}
